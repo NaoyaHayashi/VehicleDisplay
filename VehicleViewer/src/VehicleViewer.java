@@ -1,8 +1,5 @@
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 import javax.swing.JFrame;
-import javax.swing.Timer;
 
 /**
    VehicleViewer class is a tester class for VehicleComponent, Vehicle, Car and Truck classes. <br>
