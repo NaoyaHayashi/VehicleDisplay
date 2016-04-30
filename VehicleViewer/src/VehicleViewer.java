@@ -26,7 +26,7 @@ public class VehicleViewer{
       int inputNum;
       
       inputStr = JOptionPane.showInputDialog(null
-         , "How many behicles should be displayed?\n"
+         , "How many vehicles should be displayed?\n"
          + "(give an integer)", "Input", JOptionPane.QUESTION_MESSAGE);
       
       while((inputStr == null) || (inputStr.isEmpty())){
@@ -42,7 +42,7 @@ public class VehicleViewer{
             JOptionPane.showMessageDialog(null
                , "No value is typed.\n" + "Please type an integer.");
             inputStr = JOptionPane.showInputDialog(null
-            , "How many behicles should be displayed?\n"
+            , "How many vehicles should be displayed?\n"
             + "(give an integer)", "Input"
             , JOptionPane.QUESTION_MESSAGE);
          }
